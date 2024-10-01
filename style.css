@@ -1,0 +1,99 @@
+/* membuat style tampilan untuk body */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 20px;
+}
+
+/* mengatur header agar ke tengah */
+div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  max-width: 800px; /* Atur lebar maksimum formulir sesuai kebutuhan */
+  margin: 0 auto; /* Pusatkan formulir secara horizontal */
+}
+
+/* mengatur label */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333; /* Warna teks label, sesuaikan dengan kebutuhan */
+}
+
+/* mengatur form input dan text */
+input[type="text"],
+input[type="date"],
+input[type="password"],
+input[type="number"] {
+  width: 500px;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+select {
+  width: 100px;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+textarea {
+  width: 500px;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* mengatur form input submit */
+input[type="submit"] {
+  background-color: #4caf50; /* Warna latar belakang tombol, sesuaikan dengan kebutuhan */
+  color: #fff; /* Warna teks tombol, sesuaikan dengan kebutuhan */
+  padding: 10px 20px; /* Memberikan ruang di sekitar teks tombol, sesuaikan dengan kebutuhan */
+  border: none; /* Menghapus border bawaan */
+  border-radius: 5px; /* Memberikan sudut yang melengkung pada tombol, sesuaikan dengan kebutuhan */
+  cursor: pointer; /* Mengubah kursor saat diarahkan ke tombol */
+  font-size: 16px; /* Ukuran teks tombol, sesuaikan dengan kebutuhan */
+}
+.tgl {
+  width: 50px;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.bulan {
+  width: 95px;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.tahun {
+  width: 75px;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 10px;
+  background-color: #4caf50; /* Warna latar belakang tombol, sesuaikan dengan kebutuhan */
+  color: #fff; /* Warna teks tombol, sesuaikan dengan kebutuhan */
+  padding: 10px 20px; /* Memberikan ruang di sekitar teks tombol, sesuaikan dengan kebutuhan */
+  border: none; /* Menghapus border bawaan */
+  border-radius: 5px; /* Memberikan sudut yang melengkung pada tombol, sesuaikan dengan kebutuhan */
+  cursor: pointer; /* Mengubah kursor saat diarahkan ke tombol */
+  font-size: 16px; /* Ukuran teks tombol, sesuaikan dengan kebutuhan */
+}
+
+/* menambahkan efek hover pada saat tombol submit  */
+input[type="submit"]:hover {
+  background-color: #103a05; /* Warna latar belakang tombol saat dihover, sesuaikan dengan kebutuhan */
+}
+
+.pesan {
+  color: red;
+  position: sticky;
+}
